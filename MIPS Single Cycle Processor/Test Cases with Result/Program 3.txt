@@ -1,0 +1,12 @@
+addi $5,$0,3			// 5 has 3
+beq $0, $0, next		// true
+add $6, $5, $0			// never reached
+next: sw $5,4($5)		// sw from reg5 in memory 
+lw $7, 4($5)			// lw from memory to reg 7
+
+
+20050003
+10000001
+00a03020
+aca50004
+8ca70004
