@@ -10,6 +10,7 @@ Design:
 2) The Processor supports Jump and Branch Operations.
 
 3) The Supported Instructions are: 
+
 	ADD
 	ADDU
 	ADDI
